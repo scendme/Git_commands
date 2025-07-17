@@ -1,0 +1,10 @@
+git push origin --delete master   --->
+git push -u origin master         --->
+git remote rm origin              ---->
+git remote -v                     ---> 
+git remote add origin <--path-->  --->
+git restore                       --->
+git reset                         --->
+git rm <file_name>                --->Removes a file from the working directory and stages the deletion for the next commit.
+git rm -r <directory_name>        --->Recursively removes a directory and its contents from the working directory&stages the deletion
+git branch -M main                --->changing master branch to main 

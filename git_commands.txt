@@ -1,0 +1,36 @@
+###work flow of GIT
+Create->Add->Commit->Push
+Any Modification->Add->Commit->Push
+
+######### Initial setup of GIT and GIT_HUB in system
+git --version
+git config --global "user.name"
+git config --global user.email "@**"
+git config --list git clone <--link-->
+#### git_commands
+git pull                                 ->Any recent updates in remote will be copied to local
+git status                               ->status of the staging area
+git add <--file name--> or git add .     ->add the creating/modified files to the staging area
+git add .                                ->it stages all the files in the working directory whereas (git add "file_name") stages the
+                                           specified files only
+git commit -m "some msg"                 ->from staging area to local git environment
+git push origin main                     -> from local git to git hub
+##################
+create branch in git hub and practise the below commands
+#################
+git branch                               -> to check the current working branch
+git branch -a                            ->to list out all the branches in the repository
+git remote add origin <--path-->         ->to set up the new origin to work with
+git diff <--branch_name-->               ->gives the differences of the two branches
+git branch -M main                       ->to rename branch
+git checkout <--branchname-->            ->to switch over branches
+git checkout -b <--new branch name-->    -> to create new branch
+git branch <--new_branch-->              -> to create new_branch
+git branch -d <--branch name-->          ->to delete branch name
+git merge main (or) git merge <--branch name-->   -> to merge files from the working branch to the main branch
+git init                                          ->making normal folder into git repository
+git remote add origin <--path-->                  ->create local folder make it as git repo and create repo in git hub and connect
+git pull origin main                              -> to pull the updates from the remote to local
+git push origin <--branch name-->                 -> from local git to the specified git hub branch
+pull request and pull request conflict?? ->  "git merge main will not work when we don't have a permission in such scenario we use pull
+                                               request"
