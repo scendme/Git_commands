@@ -8,3 +8,4 @@ git reset                         --->
 git rm <file_name>                --->Removes a file from the working directory and stages the deletion for the next commit.
 git rm -r <directory_name>        --->Recursively removes a directory and its contents from the working directory&stages the deletion
 git branch -M main                --->changing master branch to main 
+git pull origin main --allow-unrelated-histories  --->forces Git to find a way to combine unrelated history
