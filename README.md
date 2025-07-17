@@ -1,1 +1,1 @@
-# Git_commands
+Practice this basic git commands to understand Git. Happy Learning!!!  
